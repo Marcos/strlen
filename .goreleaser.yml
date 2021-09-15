@@ -22,6 +22,17 @@ archives:
       windows: Windows
       386: i386
       amd64: x86_64
+brews:
+  - tap:
+      owner: marcos
+      name: strlen
+    commit_author:
+      name: marcos
+      email: marcos.wp@gmail.com
+    homepage: "https://github.com/marcos/strlen"
+    description: "An app that tells you the length of a string"
+    license: "BSD-3-Clause"
+    skip_upload: auto
 checksum:
   name_template: 'checksums.txt'
 snapshot:
