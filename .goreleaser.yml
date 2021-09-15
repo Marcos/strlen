@@ -25,7 +25,7 @@ archives:
 brews:
   - tap:
       owner: marcos
-      name: strlen
+      name: homebrew-strlen
     commit_author:
       name: marcos
       email: marcos.wp@gmail.com
