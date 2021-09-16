@@ -20,8 +20,7 @@ func main() {
 
 	var buffer bytes.Buffer
 	if *verbose {
-		buffer.WriteString(str)
-		buffer.WriteString(": ")
+		buffer.WriteString(str + ": ")
 	}
 
 	buffer.WriteString(size)
