@@ -12,8 +12,11 @@ func main() {
 	flag.Parse()
 	args := flag.Args()
 
-	str := args[0]
-	size := strconv.Itoa(len(str))
+	var str, size string = "", "0"
+	if len(args) > 0 {
+		str = args[0]
+		size = strconv.Itoa(len(str))
+	}
 
 	var buffer bytes.Buffer
 	if *verbose {
